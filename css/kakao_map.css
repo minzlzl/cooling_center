@@ -64,49 +64,55 @@ header nav ul li a {
   color: #fff;
 }
 
-.home_wrap {
-  background-color: #f5f5f5;
+.kakao_map_wrap {
   width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
+  margin-bottom: 100px;
 }
-.home_wrap .home {
+.kakao_map_wrap .kakao_map {
   width: 900px;
   margin: auto;
 }
-.home_wrap .home ul li {
-  background-color: #fff;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.05);
-}
-.home_wrap .home ul li:hover {
-  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
-}
-.home_wrap .home ul li:nth-of-type(1) {
-  margin-bottom: 50px;
-}
-.home_wrap .home ul li:nth-of-type(1) a figure {
-  width: 100px;
-}
-.home_wrap .home ul li a {
-  width: 100%;
-  height: 260px;
+.kakao_map_wrap .kakao_map p {
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.home_wrap .home ul li a figure {
-  margin: 0 auto 30px;
-}
-.home_wrap .home ul li a figure img {
-  width: 100%;
-}
-.home_wrap .home ul li a p {
+  color: #444;
   font-family: "Pretendard-Regular";
-  color: #555;
-  font-size: 22px;
   font-weight: 600;
-}/*# sourceMappingURL=home.css.map */
+  font-size: 22px;
+  margin: 60px;
+}
+.kakao_map_wrap .kakao_map #map {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 40px;
+}
+.kakao_map_wrap .kakao_map .list .list_title ul {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(66, 182, 243, 0.639);
+  border-radius: 10px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.05);
+  padding: 25px 30px;
+}
+.kakao_map_wrap .kakao_map .list .list_title ul li {
+  color: #fff;
+  font-family: "Pretendard-Regular";
+  font-weight: 600;
+  font-size: 20px;
+  width: 120px;
+  text-align: center;
+}
+.kakao_map_wrap .kakao_map .list .list_con ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+.kakao_map_wrap .kakao_map .list .list_con ul li {
+  width: 120px;
+  text-align: center;
+  padding: 30px 0;
+  font-family: "Pretendard-Regular";
+  font-size: 17px;
+  color: #555;
+}/*# sourceMappingURL=kakao_map.css.map */
