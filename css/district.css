@@ -62,4 +62,55 @@ header nav ul li:nth-of-type(2) a img {
 }
 header nav ul li a {
   color: #fff;
+}
+
+.district_wrap {
+  width: 100%;
+}
+.district_wrap .district {
+  width: 900px;
+  margin: auto;
+}
+.district_wrap .district .tab {
+  overflow-x: scroll;
+}
+.district_wrap .district .tab ul {
+  display: flex;
+}
+.district_wrap .district .tab ul li {
+  border: 1px solid #555;
+  width: 100px;
+  height: 20px;
+  margin-right: 10px;
+}
+.district_wrap .district .list .list_title ul {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(66, 182, 243, 0.639);
+  border-radius: 10px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.05);
+  padding: 25px 30px;
+}
+.district_wrap .district .list .list_title ul li {
+  color: #fff;
+  font-family: "Pretendard-Regular";
+  font-weight: 600;
+  font-size: 20px;
+  width: 120px;
+  text-align: center;
+}
+.district_wrap .district .list .list_con ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+.district_wrap .district .list .list_con ul li {
+  width: 120px;
+  text-align: center;
+  padding: 30px 0;
+  font-family: "Pretendard-Regular";
+  font-size: 17px;
+  color: #555;
 }/*# sourceMappingURL=district.css.map */
