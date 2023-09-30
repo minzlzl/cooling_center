@@ -73,15 +73,29 @@ header nav ul li a {
 }
 .district_wrap .district .tab {
   overflow-x: scroll;
+  padding: 20px 0;
+  margin-bottom: 50px;
 }
 .district_wrap .district .tab ul {
   display: flex;
 }
 .district_wrap .district .tab ul li {
-  border: 1px solid #555;
-  width: 100px;
-  height: 20px;
   margin-right: 10px;
+}
+.district_wrap .district .tab ul li button {
+  border: 1px solid #555;
+  width: 90px;
+  height: 36px;
+  border-radius: 20px;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  color: #555;
+  cursor: pointer;
+}
+.district_wrap .district .tab ul li button.btn {
+  color: #fff;
+  background-color: #555;
 }
 .district_wrap .district .list .list_title ul {
   display: flex;
