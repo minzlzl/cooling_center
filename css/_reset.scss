@@ -43,6 +43,9 @@ header{
         &:nth-of-type(2){
           width:25px;
           a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
             img{
               width:100%;
             }

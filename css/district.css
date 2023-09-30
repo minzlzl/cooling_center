@@ -57,6 +57,11 @@ header nav ul li:nth-of-type(1) a {
 header nav ul li:nth-of-type(2) {
   width: 25px;
 }
+header nav ul li:nth-of-type(2) a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 header nav ul li:nth-of-type(2) a img {
   width: 100%;
 }
@@ -75,6 +80,15 @@ header nav ul li a {
   overflow-x: scroll;
   padding: 20px 0;
   margin-bottom: 50px;
+}
+.district_wrap .district .tab::-webkit-scrollbar {
+  background-color: #ddd;
+  border-radius: 10px;
+  height: 10px;
+}
+.district_wrap .district .tab::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
 }
 .district_wrap .district .tab ul {
   display: flex;
