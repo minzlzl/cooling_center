@@ -72,10 +72,10 @@ header nav ul li a {
 .main_wrap {
   overflow: hidden;
   position: relative;
-}
-.main_wrap figure img {
-  width: 100%;
+  background: url("./../img/main_img.png");
+  background-size: cover;
   height: 100vh;
+  background-repeat: no-repeat;
 }
 .main_wrap .main_txt {
   position: absolute;

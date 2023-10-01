@@ -30,3 +30,4 @@ tabBtn.forEach(function(v){
   v.classList.add('btn');
   };
 });
+
