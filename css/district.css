@@ -87,7 +87,12 @@ header nav ul li a {
   font-size: 30px;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .top {
+    right: 5%;
+  }
+}
+@media (max-width: 1200px) {
   header nav {
     width: 90%;
   }

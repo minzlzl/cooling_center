@@ -3,7 +3,7 @@
 .main_wrap{
   overflow: hidden;
   position: relative;
-  background: url("./../img/main_img.png");
+  background: url("./../img/main_bg.png");
   background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
@@ -43,3 +43,30 @@
     }
   }
 }
+
+@media (min-width:768px) and (max-width:1200px){
+  .main_wrap{
+    background: url("./../img/main_bg2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+// @media (min-width:480px) and (max-width:768px){
+//   .main_wrap{
+//     background: url("./../img/main_bg2.png");
+//     background-repeat: no-repeat;
+//     height: 100vh;
+//     background-position: center;
+//     .main_txt{
+//       h1{
+//         font-size: 80px;
+//         margin-bottom: 60px;
+//       }
+//       span{
+//         a{
+//           font-size: 20px;
+//         }
+//       }
+//     }
+//   }
+// }

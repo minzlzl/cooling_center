@@ -28,7 +28,7 @@ fetch('./js/db/data.json')
     
     // 강남구 데이터만 필터링하여 표시
     const gangnamData = allData.filter(function (item) {
-      return item.r_area_nm.includes("강남구") || item.r_detl_add.includes("강남구");
+      return item.r_detl_add.includes("강남구");
     });
 
     displayData(gangnamData); // 강남구 데이터 표시
@@ -47,7 +47,7 @@ tabBtn.forEach(function (v) {
 
     // 선택한 지역이 데이터의 'r_area_nm' 또는 'r_detl_add' 중 하나에 포함되어 있는 데이터 필터링
     const filteredData = allData.filter(function (item) {
-      return item.r_area_nm.includes(selectedArea) || item.r_detl_add.includes(selectedArea);
+      return item.r_detl_add.includes(selectedArea);
     });
 
     displayData(filteredData); // 필터링된 데이터 표시
