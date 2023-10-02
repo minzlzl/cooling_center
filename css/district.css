@@ -87,6 +87,31 @@ header nav ul li a {
   font-size: 30px;
 }
 
+@media (max-width: 1000px) {
+  header nav {
+    width: 90%;
+  }
+  .top {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  header nav ul {
+    display: block;
+    height: 60px;
+  }
+  header nav ul li:nth-of-type(1) {
+    text-align: center;
+  }
+  header nav ul li:nth-of-type(1) a {
+    font-size: 30px;
+    font-family: "SBAggroB";
+    line-height: 60px;
+  }
+  header nav ul li:nth-of-type(2) {
+    display: none;
+  }
+}
 .district_wrap {
   width: 100%;
 }
@@ -159,4 +184,62 @@ header nav ul li a {
   font-family: "Pretendard-Regular";
   font-size: 17px;
   color: #555;
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .district_wrap .district {
+    width: 90%;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .district_wrap .district {
+    width: 90%;
+  }
+  .district_wrap .district .list .list_title ul {
+    padding: 25px 15px;
+  }
+  .district_wrap .district .list .list_title ul li {
+    font-size: 17px;
+    width: 75px;
+  }
+  .district_wrap .district .list .list_con ul {
+    padding: 0px 15px;
+  }
+  .district_wrap .district .list .list_con ul li {
+    width: 75px;
+    padding: 30px 0;
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .district_wrap .district {
+    width: 90%;
+  }
+  .district_wrap .district .tab {
+    padding: 20px 0;
+    margin-bottom: 30px;
+  }
+  .district_wrap .district .tab ul li {
+    margin-right: 10px;
+  }
+  .district_wrap .district .tab ul li button {
+    width: 82px;
+    height: 32px;
+    font-size: 15px;
+  }
+  .district_wrap .district .list .list_title ul {
+    padding: 25px 20px;
+  }
+  .district_wrap .district .list .list_title ul li {
+    font-size: 15px;
+    width: 40px;
+  }
+  .district_wrap .district .list .list_con ul {
+    padding: 0px 10px;
+  }
+  .district_wrap .district .list .list_con ul li {
+    width: 60px;
+    padding: 20px 0;
+    font-size: 13px;
+  }
 }/*# sourceMappingURL=district.css.map */

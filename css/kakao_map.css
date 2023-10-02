@@ -87,6 +87,31 @@ header nav ul li a {
   font-size: 30px;
 }
 
+@media (max-width: 1000px) {
+  header nav {
+    width: 90%;
+  }
+  .top {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  header nav ul {
+    display: block;
+    height: 60px;
+  }
+  header nav ul li:nth-of-type(1) {
+    text-align: center;
+  }
+  header nav ul li:nth-of-type(1) a {
+    font-size: 30px;
+    font-family: "SBAggroB";
+    line-height: 60px;
+  }
+  header nav ul li:nth-of-type(2) {
+    display: none;
+  }
+}
 .kakao_map_wrap {
   width: 100%;
   margin-bottom: 100px;
@@ -138,4 +163,66 @@ header nav ul li a {
   font-family: "Pretendard-Regular";
   font-size: 17px;
   color: #555;
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .kakao_map_wrap .kakao_map {
+    width: 90%;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .kakao_map_wrap .kakao_map {
+    width: 90%;
+  }
+  .kakao_map_wrap .kakao_map p {
+    font-size: 20px;
+    margin: 45px 0;
+  }
+  .kakao_map_wrap .kakao_map #map {
+    height: 300px;
+  }
+  .kakao_map_wrap .kakao_map .list .list_title ul {
+    padding: 25px 15px;
+  }
+  .kakao_map_wrap .kakao_map .list .list_title ul li {
+    font-size: 17px;
+    width: 75px;
+  }
+  .kakao_map_wrap .kakao_map .list .list_con ul {
+    padding: 0px 15px;
+  }
+  .kakao_map_wrap .kakao_map .list .list_con ul li {
+    width: 75px;
+    padding: 30px 0;
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .kakao_map_wrap .kakao_map {
+    width: 90%;
+  }
+  .kakao_map_wrap .kakao_map p {
+    font-size: 15px;
+    margin: 30px 0;
+    font-weight: 400;
+  }
+  .kakao_map_wrap .kakao_map #map {
+    height: 200px;
+    margin-bottom: 30px;
+  }
+  .kakao_map_wrap .kakao_map .list .list_title ul {
+    padding: 25px 20px;
+  }
+  .kakao_map_wrap .kakao_map .list .list_title ul li {
+    font-size: 15px;
+    width: 40px;
+  }
+  .kakao_map_wrap .kakao_map .list .list_con ul {
+    padding: 0px 10px;
+  }
+  .kakao_map_wrap .kakao_map .list .list_con ul li {
+    width: 60px;
+    padding: 20px 0;
+    font-size: 13px;
+  }
 }/*# sourceMappingURL=kakao_map.css.map */

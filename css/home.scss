@@ -50,3 +50,33 @@
     }
   }
 }
+
+@media (max-width:1000px){
+  .home_wrap{
+    .home{
+      width:90%;
+    }
+  }
+}
+@media (max-width:480px){
+  .home_wrap{
+    .home{
+      width:80%;
+      ul{
+        li{
+          a{
+            height: 230px;
+            figure{
+              img{
+                width:80%;
+              }
+            }
+            p{
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

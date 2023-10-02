@@ -79,3 +79,81 @@
     }
   }
 }
+
+@media (min-width:768px) and (max-width:1000px){
+  .district_wrap{
+    .district{
+      width:90%;
+    }
+  }
+}
+@media (min-width:480px) and (max-width:768px){
+  .district_wrap{
+    .district{
+      width:90%;
+      .list{
+        .list_title{
+          ul{
+            padding: 25px 15px;
+            li{
+              font-size:17px;
+              width:75px;
+            }
+          }
+        }
+        .list_con{
+          ul{
+            padding: 0px 15px;
+            li{
+              width:75px;
+              padding:30px 0;
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width:480px){
+  .district_wrap{
+    .district{
+      width:90%;
+      .tab{
+        padding:20px 0;
+        margin-bottom: 30px;
+        ul{
+          li{
+            margin-right: 10px;
+            button{
+              width:82px;
+              height: 32px;
+              font-size: 15px;
+            }
+          }
+        }
+      }
+      .list{
+        .list_title{
+          ul{
+            padding: 25px 20px;
+            li{
+              font-size:15px;
+              width:40px;
+            }
+          }
+        }
+        .list_con{
+          ul{
+            padding: 0px 10px;
+            li{
+              width:60px;
+              padding:20px 0;
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
