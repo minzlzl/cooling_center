@@ -189,7 +189,7 @@ header nav ul li a {
 }
 @media (max-width: 480px) {
   .main_wrap {
-    background: url("./../img/main_bg2.png");
+    background: url("./../img/main_bg3.png");
     background-repeat: no-repeat;
     height: 100vh;
     background-position: center;
