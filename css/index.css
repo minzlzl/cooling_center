@@ -153,6 +153,9 @@ header nav ul li a {
   margin-bottom: 80px;
   text-shadow: 3px 5px 7px rgba(24, 83, 135, 0.5);
 }
+.main_wrap .main_txt h1 br {
+  display: none;
+}
 .main_wrap .main_txt span a {
   font-family: "Pretendard-Regular";
   font-weight: 500;
@@ -168,5 +171,38 @@ header nav ul li a {
     background: url("./../img/main_bg2.png");
     background-position: center;
     background-repeat: no-repeat;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .main_wrap {
+    background: url("./../img/main_bg2.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+  }
+  .main_wrap .main_txt h1 {
+    text-align: center;
+  }
+  .main_wrap .main_txt h1 br {
+    display: block;
+  }
+}
+@media (max-width: 480px) {
+  .main_wrap {
+    background: url("./../img/main_bg2.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+  }
+  .main_wrap .main_txt h1 {
+    font-size: 80px;
+    margin-bottom: 65px;
+    text-align: center;
+  }
+  .main_wrap .main_txt h1 br {
+    display: block;
+  }
+  .main_wrap .main_txt span a {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=index.css.map */
