@@ -1,13 +1,5 @@
-const listCon = document.querySelector('.list_con'),
-        topBtn = document.querySelector('.top');
+const listCon = document.querySelector('.list_con')
 
-function topBtnClick(){
-  window.scrollTo({
-    top:0,
-    behavior:'smooth'
-  });
-};
-topBtn.addEventListener("click",topBtnClick);
 
 
 fetch('./js/db/data.json')
