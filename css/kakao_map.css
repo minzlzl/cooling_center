@@ -119,6 +119,7 @@ header nav ul li a {
 }
 .kakao_map_wrap {
   width: 100%;
+  margin-bottom: 50px;
 }
 .kakao_map_wrap .kakao_map {
   width: 900px;
