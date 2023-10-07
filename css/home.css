@@ -144,7 +144,7 @@ header nav ul li a {
 }
 .home_wrap .home ul li a {
   width: 100%;
-  height: 350px;
+  padding: 60px 0;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -174,7 +174,7 @@ header nav ul li a {
     width: 80%;
   }
   .home_wrap .home ul li a {
-    height: 230px;
+    padding: 60px 0;
   }
   .home_wrap .home ul li a figure img {
     width: 80%;
@@ -182,4 +182,4 @@ header nav ul li a {
   .home_wrap .home ul li a p {
     font-size: 20px;
   }
-}
+}/*# sourceMappingURL=home.css.map */
